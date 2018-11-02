@@ -1,5 +1,5 @@
 FROM n0trace/yarn
-LABEL maintainer="n0trace@protonmail.com"
+LABEL maintainer="fnsoxt@gmail.com"
 
 COPY rootCA.* /root/.anyproxy/certificates/
 
