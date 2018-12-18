@@ -8,4 +8,4 @@ RUN yarn global add anyproxy &&\
 
 EXPOSE 8001 8002
 
-ENTRYPOINT anyproxy
+ENTRYPOINT anyproxy --intercept --ws-intercept
